@@ -101,7 +101,6 @@ img{
     color: var(--color-white);
 }
 
-
 /******************************/
 /********** Navbar ************/
 /******************************/
@@ -221,4 +220,8 @@ header{
 }
 .category p{
     font-size: 0.85rem;
+}
+.category .fa-solid, .fas {
+    width: 1.3rem;
+    text-align: center;
 }
