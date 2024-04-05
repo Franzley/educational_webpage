@@ -1,3 +1,4 @@
+/* ↓↓ Global variables accessible throughout stylesheet ↓↓ */ 
 :root {
     --color-primary: #6c63ff;
     --color-success: #00bf8e;
@@ -15,9 +16,11 @@
     --wrapper-width-md: 90%;
     --wrapper-width-sm: 94%;
 
+    /* ↓↓ Apply transition to all changed properties with 400ms transtion and ease timing ↓↓ */ 
     --transition: all 400ms ease;
 }
 
+/* ↓↓ Remove default styles across all elements ↓↓ */ 
 *,
 *::before,
 *::after {
@@ -26,6 +29,7 @@
     border: 0;
     text-decoration: none;
     list-style: none;
+    /* ↓↓ Include borders, paddings sizes in width calculation. i.e Element is not larger than fixed width size ↓↓ */
     box-sizing: border-box;
 }
 
@@ -39,6 +43,7 @@ body{
     background: var(--color-bg);
 }
 
+/* ↓↓ Constrain entire webpage within a horizontally centered container with defined width ↓↓ */ 
 .wrapper{
     width: var(--wrapper-width-1g);
     margin: 0 auto;
@@ -77,10 +82,12 @@ a{
 img{
     width: 100%;
     display: block;
+    /* ↓↓ Crop image and maintain aspect ratio while filling box ↓↓ */ 
     object-fit: cover;
 }
 
 .btn{
+    /* ↓↓ Set a width and height on the element and the top and bottom margins/paddings are respected ↓↓ */ 
      display: inline-block;
      background: var(--color-white);
      color: var(--color-black);
@@ -105,11 +112,13 @@ img{
 /********** Navbar ************/
 /******************************/
 nav{
-    background: transparent;
+    /* ↓↓ Fill the entire viewport width ↓↓ */
     width: 100vw;
     height: 5rem;
+    /* ↓↓ Keep nav always fixed on the top of the page even when scrolling ↓↓ */
     position: fixed;
     top: 0;
+    /* ↓↓ High index to ensure nav is always displayed over other elements on page ↓↓ */
     z-index: 11;
 }
 
@@ -120,6 +129,7 @@ nav{
     align-items: center;
 }
 
+/* ↓↓ Remove the elements that are only to be seen in mobile devices ↓↓ */
 nav button {
     display: none;
 }
