@@ -1,1 +1,5 @@
-// 49:54 / 3:09:34
+import navbar from "./utilsJS/navbar.js";
+import showHide from "./utilsJS/showHide.js";
+
+navbar();
+showHide();

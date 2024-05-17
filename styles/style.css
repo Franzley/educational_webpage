@@ -1,52 +1,59 @@
+/******************************/
+/*********** Global ***********/
+/******************************/
+
 /* ↓↓ Global variables accessible throughout stylesheet ↓↓ */
 :root {
-    --color-primary: #6c63ff;
-    --color-success: #00bf8e;
-    --color-warning: #f7c94b;
-    --color-danger: #f75842;
-    --color-danger-variant: rgba(247, 88, 66, 0.4);
-    --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.7);
-    --color-black: #000;
-    --color-bg: #1f2641;
-    --color-bg1: #2e3267;
-    --color-bg2: #424890;
+  --clr-primary: #6c63ff;
+  --clr-success: #00bf8e;
+  --clr-warning: #f7c94b;
+  --clr-danger: #f75842;
+  --clr-danger-variant: rgba(247, 88, 66, 0.4);
+  --clr-white: #fff;
+  --clr-light: rgba(255, 255, 255, 0.7);
+  --clr-black: #000;
+  --clr-bg: #1f2641;
+  --clr-bg1: #2e3267;
+  --clr-bg2: #424890;
 
-    --container-width-1g: 80%;
-    --container-width-md: 90%;
-    --container-width-sm: 94%;
+  --container-width-1g: 80%;
+  --container-width-md: 90%;
+  --container-width-sm: 94%;
 
-    /* ↓↓ Apply transition to all changed properties with 400ms transtion and ease timing ↓↓ */
-    --transition: all 400ms ease;
+  /* ↓↓ Apply transition to all changed properties with 400ms transtion and ease timing ↓↓ */
+  --transition: all 400ms ease;
 }
 
 /* ↓↓ Remove default styles across all elements ↓↓ */
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    text-decoration: none;
-    list-style: none;
-    /* ↓↓ Include borders, paddings sizes in width calculation. i.e Element is not larger than fixed width size ↓↓ */
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  /* ↓↓ Include borders, paddings sizes in width calculation. i.e Element is not larger than fixed width size ↓↓ */
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 1.7;
-    color: var(--color-white);
-    background: var(--color-bg);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.7;
+  color: var(--clr-white);
+  background: var(--clr-bg);
 }
 
+/******************************/
+/********** Headers ***********/
+/******************************/
 
-/* section h2{
-    text-align: center;
-    margin-bottom: 4rem;
-} */
+section h3 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
 
 h1,
 h2,
@@ -54,32 +61,39 @@ h3,
 h4,
 h5,
 h6 {
-    line-height: 1.2;
+  line-height: 1.2;
 }
 
 h1 {
-    font-size: 2.4rem;
+  font-size: 2.8rem;
 }
-
 h2 {
-    font-size: 2rem;
+  font-size: 2.4rem;
 }
-
 h3 {
-    font-size: 1.6;
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.7rem;
+}
+h5 {
+  font-size: 1.3rem;
+}
+h6 {
+  font-size: 0.83rem;
 }
 
-h4 {
-    font-size: 1.3rem;
-}
+/******************************/
+/********** Elements **********/
+/******************************/
 
 a {
-    color: var(--color-white);
+  color: var(--clr-white);
 }
 
 img {
-    width: 100%;
-    display: block;
-    /* ↓↓ Crop image and maintain aspect ratio while filling box ↓↓ */
-    object-fit: cover;
+  width: 100%;
+  display: block;
+  /* ↓↓ Crop image and maintain aspect ratio while filling box ↓↓ */
+  object-fit: cover;
 }

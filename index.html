@@ -1,138 +1,575 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Multipage Education Website</title>
-    <script src="https://kit.fontawesome.com/63c4091414.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/components/nav-menu.css">
-    <link rel="stylesheet" href="./styles/components/hero.css">
-    <link rel="stylesheet" href="./styles/components/categories.css">
-    <link rel="stylesheet" href="./styles/utils.css">
-</head>
+    <script
+      src="https://kit.fontawesome.com/63c4091414.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/components/navbar.css" />
+    <link rel="stylesheet" href="./styles/components/hero.css" />
+    <link rel="stylesheet" href="./styles/components/categories.css" />
+    <link rel="stylesheet" href="./styles/components/courses.css" />
+    <link rel="stylesheet" href="./styles/components/faqs.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+  </head>
 
-<body>
-    <!-- Nav Start -->
+  <body>
+    <!-- ************************************************ -->
+    <!--                     Nav Start                    -->
+    <!-- ************************************************ -->
     <nav>
-        <div class="container nav-container">
-            <a href="index.html">
-                <h4>Website</h4>
-            </a>
-            <ul class="nav-menu">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
-            <button id="open-menu-btn"><i class="fa-solid fa-x"></i></button>
-        </div>
+      <div class="container nav-container">
+        <a href="index.html">
+          <h5>Courses EDU</h5>
+        </a>
+        <ul class="nav-menu">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+        <button id="open-menu-btn"><i class="fa-solid fa-x"></i></button>
+      </div>
     </nav>
-    <!-- Nav End -->
+    <!-- ************************************************ -->
+    <!--                     Nav End                      -->
+    <!-- ************************************************ -->
 
-    <!-- Hero Start -->
+    <!-- ************************************************ -->
+    <!--                     Hero Start                   -->
+    <!-- ************************************************ -->
     <header>
-        <div class="container hero-container">
-            <div class="hero-left">
-                <h1>Grow your skills to advance your career path</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat cupiditate ut aliquid delectus
-                    minima error corrupti quas dolore rem illo.</p>
-                <a href="#" class="btn btn-primary">Get Started</a>
-            </div>
-            <div class="hero-right">
-                <div class="hero-right-image">
-                    <img src="./images/header.svg" alt="">
-                </div>
-            </div>
+      <div class="container hero-container">
+        <div class="hero-left">
+          <h1>Grow your skills to advance your career path</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
+            cupiditate ut aliquid delectus minima error corrupti quas dolore rem
+            illo.
+          </p>
+          <a href="#" class="btn btn-primary">Get Started</a>
         </div>
+        <div class="hero-right">
+          <div class="hero-right-image">
+            <img src="./images/header.svg" alt="" />
+          </div>
+        </div>
+      </div>
     </header>
-    <!-- Hero End -->
+    <!-- ************************************************ -->
+    <!--                     Hero End                     -->
+    <!-- ************************************************ -->
 
-    <!-- Categories Start -->
+    <!-- ************************************************ -->
+    <!--                 Categories Start                 -->
+    <!-- ************************************************ -->
     <section class="categories">
-        <div class="container categories-container">
-            <div class="categories-left">
-                <h2>Categories</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ducimus sunt debitis quibusdam
-                    suscipit beatae corporis magni fuga in veritatis aliquid consectetur, iste, similique aut qui ipsa
-                    ipsam a! Itaque?
-                </p>
-                <a href="#" class="btn">Learn More</a>
-            </div>
-            <div class="categories-right">
-                <article class="category">
-                    <span class="category-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-bitcoin" viewBox="0 0 16 16">
-                            <path d="M5.5 13v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.5v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.084c1.992 0 3.416-1.033 3.416-2.82 0-1.502-1.007-2.323-2.186-2.44v-.088c.97-.242 1.683-.974 1.683-2.19C11.997 3.93 10.847 3 9.092 3H9V1.75a.25.25 0 0 0-.25-.25h-1a.25.25 0 0 0-.25.25V3h-.573V1.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25V3l-1.998.011a.25.25 0 0 0-.25.25v.989c0 .137.11.25.248.25l.755-.005a.75.75 0 0 1 .745.75v5.505a.75.75 0 0 1-.75.75l-.748.011a.25.25 0 0 0-.25.25v1c0 .138.112.25.25.25zm1.427-8.513h1.719c.906 0 1.438.498 1.438 1.312 0 .871-.575 1.362-1.877 1.362h-1.28zm0 4.051h1.84c1.137 0 1.756.58 1.756 1.524 0 .953-.626 1.45-2.158 1.45H6.927z"/>
-                          </svg>
-                    </span>
-                    <h5>Blockchain</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, consequuntur?</p>
-                </article>
-
-                <article class="category">
-                    <span class="category-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brush" viewBox="0 0 16 16">
-                            <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.1 6.1 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.1 8.1 0 0 1-3.078.132 4 4 0 0 1-.562-.135 1.4 1.4 0 0 1-.466-.247.7.7 0 0 1-.204-.288.62.62 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896q.19.012.348.048c.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04M4.705 11.912a1.2 1.2 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.4 3.4 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3 3 0 0 0 .126-.75zm1.44.026c.12-.04.277-.1.458-.183a5.1 5.1 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005zm3.582-3.043.002.001h-.002z"/>
-                          </svg>
-                    </span>
-                    <h5>Graphic Design</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, consequuntur?</p>
-                </article>
-
-                <article class="category">
-                    <span class="category-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
-                            <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
-                          </svg>
-                    </span>
-                    <h5>Finance</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, consequuntur?</p>
-                </article>
-
-                <article class="category">
-                    <span class="category-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-megaphone" viewBox="0 0 16 16">
-                            <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 75 75 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0m-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233q.27.015.537.036c2.568.189 5.093.744 7.463 1.993zm-9 6.215v-4.13a95 95 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A61 61 0 0 1 4 10.065m-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68 68 0 0 0-1.722-.082z"/>
-                          </svg>
-                    </span>
-                    <h5>Marketing</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, consequuntur?</p>
-                </article>
-
-                <article class="category">
-                    <span class="category-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note" viewBox="0 0 16 16">
-                            <path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2"/>
-                            <path fill-rule="evenodd" d="M9 3v10H8V3z"/>
-                            <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5z"/>
-                          </svg>
-                    </span>
-                    <h5>Music</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, consequuntur?</p>
-                </article>
-
-                <article class="category">
-                    <span class="category-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase" viewBox="0 0 16 16">
-                            <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5m1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0M1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5"/>
-                          </svg>
-                    </span>
-                    <h5>Business</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, consequuntur?</p>
-                </article>
-
-            </div>
+      <div class="container categories-container">
+        <div class="categories-left">
+          <h2>Categories</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+            ducimus sunt debitis quibusdam suscipit beatae corporis magni fuga
+            in veritatis aliquid consectetur, iste, similique aut qui ipsa ipsam
+            a! Itaque?
+          </p>
+          <a href="#" class="btn">Learn More</a>
         </div>
+        <div class="categories-right">
+          <article class="category">
+            <span class="category-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-currency-bitcoin"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.5 13v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.5v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.084c1.992 0 3.416-1.033 3.416-2.82 0-1.502-1.007-2.323-2.186-2.44v-.088c.97-.242 1.683-.974 1.683-2.19C11.997 3.93 10.847 3 9.092 3H9V1.75a.25.25 0 0 0-.25-.25h-1a.25.25 0 0 0-.25.25V3h-.573V1.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25V3l-1.998.011a.25.25 0 0 0-.25.25v.989c0 .137.11.25.248.25l.755-.005a.75.75 0 0 1 .745.75v5.505a.75.75 0 0 1-.75.75l-.748.011a.25.25 0 0 0-.25.25v1c0 .138.112.25.25.25zm1.427-8.513h1.719c.906 0 1.438.498 1.438 1.312 0 .871-.575 1.362-1.877 1.362h-1.28zm0 4.051h1.84c1.137 0 1.756.58 1.756 1.524 0 .953-.626 1.45-2.158 1.45H6.927z"
+                />
+              </svg>
+            </span>
+            <h6>Blockchain</h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
+              consequuntur?
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-brush"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.1 6.1 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.1 8.1 0 0 1-3.078.132 4 4 0 0 1-.562-.135 1.4 1.4 0 0 1-.466-.247.7.7 0 0 1-.204-.288.62.62 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896q.19.012.348.048c.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04M4.705 11.912a1.2 1.2 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.4 3.4 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3 3 0 0 0 .126-.75zm1.44.026c.12-.04.277-.1.458-.183a5.1 5.1 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005zm3.582-3.043.002.001h-.002z"
+                />
+              </svg>
+            </span>
+            <h6>Graphic Design</h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
+              consequuntur?
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-currency-dollar"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"
+                />
+              </svg>
+            </span>
+            <h6>Finance</h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
+              consequuntur?
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-megaphone"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 75 75 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0m-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233q.27.015.537.036c2.568.189 5.093.744 7.463 1.993zm-9 6.215v-4.13a95 95 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A61 61 0 0 1 4 10.065m-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68 68 0 0 0-1.722-.082z"
+                />
+              </svg>
+            </span>
+            <h6>Marketing</h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
+              consequuntur?
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-music-note"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2"
+                />
+                fill="currentColor" d="M9 3v10H8V3z" />
+                <path
+                  d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5z"
+                />
+              </svg>
+            </span>
+            <h6>Music</h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
+              consequuntur?
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-briefcase"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5m1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0M1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5"
+                />
+              </svg>
+            </span>
+            <h6>Business</h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
+              consequuntur?
+            </p>
+          </article>
+        </div>
+      </div>
     </section>
-    <!-- Categories End -->
+    <!-- ************************************************ -->
+    <!--                 Categories End                   -->
+    <!-- ************************************************ -->
 
-    <script src="./src/app.js"></script>
-</body>
+    <!-- ************************************************ -->
+    <!--                 Courses Start                    -->
+    <!-- ************************************************ -->
 
+    <section class="courses">
+      <h3>Our Popular Courses</h3>
+      <div class="container courses-container">
+        <!-- Course 1 -->
+        <article class="course">
+          <div class="course-image">
+            <img src="./images/course1.jpg" alt="" srcset="" />
+          </div>
+          <div class="course-info">
+            <h5 class="course-title">
+              Responsive Social Media Website UI Design
+            </h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ex
+              quia ut perspiciatis distinctio assumenda omnis?
+            </p>
+            <a href="course.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        <!-- Course 2 -->
+        <article class="course">
+          <div class="course-image">
+            <img src="./images/course2.jpg" alt="" srcset="" />
+          </div>
+          <div class="course-info">
+            <h5 class="course-title">Responsive SmartHome Website Design</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ex
+              quia ut perspiciatis distinctio assumenda omnis?
+            </p>
+            <a href="course.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        <!-- Course 3 -->
+        <article class="course">
+          <div class="course-image">
+            <img src="./images/course3.jpg" alt="" srcset="" />
+          </div>
+          <div class="course-info">
+            <h5 class="course-title">Responsive Admin Dashboard UI Design</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ex
+              quia ut perspiciatis distinctio assumenda omnis?
+            </p>
+            <a href="course.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ************************************************ -->
+    <!--                 Courses End                      -->
+    <!-- ************************************************ -->
+
+    <!-- ************************************************ -->
+    <!--                 FAQs Start                    -->
+    <!-- ************************************************ -->
+
+    <section class="faqs">
+      <h3>Frequently Asked Questions</h3>
+      <div class="container faqs-container">
+        <!-- FAQ 1 -->
+        <article class="faq">
+          <div class="faq-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="faq-q_a">
+            <h5 class="faq-question">
+              How do I know the right courses for me?
+            </h5>
+            <p class="faq-answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate, suscipit!
+            </p>
+          </div>
+        </article>
+        <!-- FAQ 2 -->
+        <article class="faq">
+          <div class="faq-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="faq-q_a">
+            <h5 class="faq-question">
+              How do I know the right courses for me?
+            </h5>
+            <p class="faq-answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate, suscipit!
+            </p>
+          </div>
+        </article>
+        <!-- FAQ 3 -->
+        <article class="faq">
+          <div class="faq-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="faq-q_a">
+            <h5 class="faq-question">
+              How do I know the right courses for me?
+            </h5>
+            <p class="faq-answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate, suscipit!
+            </p>
+          </div>
+        </article>
+        <!-- FAQ 4 -->
+        <article class="faq">
+          <div class="faq-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="faq-q_a">
+            <h5 class="faq-question">
+              How do I know the right courses for me?
+            </h5>
+            <p class="faq-answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate, suscipit!
+            </p>
+          </div>
+        </article>
+        <!-- FAQ 5 -->
+        <article class="faq">
+          <div class="faq-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="faq-q_a">
+            <h5 class="faq-question">
+              How do I know the right courses for me?
+            </h5>
+            <p class="faq-answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate, suscipit!
+            </p>
+          </div>
+        </article>
+        <!-- FAQ 6 -->
+        <article class="faq">
+          <div class="faq-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="faq-q_a">
+            <h5 class="faq-question">
+              How do I know the right courses for me?
+            </h5>
+            <p class="faq-answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate, suscipit!
+            </p>
+          </div>
+        </article>
+        <!-- FAQ 7 -->
+        <article class="faq">
+          <div class="faq-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="faq-q_a">
+            <h5 class="faq-question">
+              How do I know the right courses for me?
+            </h5>
+            <p class="faq-answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate, suscipit!
+            </p>
+          </div>
+        </article>
+        <!-- FAQ 8 -->
+        <article class="faq">
+          <div class="faq-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="faq-q_a">
+            <h5 class="faq-question">
+              How do I know the right courses for me?
+            </h5>
+            <p class="faq-answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate, suscipit!
+            </p>
+          </div>
+        </article>
+        <!-- FAQ 9 -->
+        <article class="faq">
+          <div class="faq-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="faq-q_a">
+            <h5 class="faq-question">
+              How do I know the right courses for me?
+            </h5>
+            <p class="faq-answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate, suscipit!
+            </p>
+          </div>
+        </article>
+        <!-- FAQ 10 -->
+        <article class="faq">
+          <div class="faq-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="faq-q_a">
+            <h5 class="faq-question">
+              How do I know the right courses for me?
+            </h5>
+            <p class="faq-answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate, suscipit!
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ************************************************ -->
+    <!--                 FAQs End                      -->
+    <!-- ************************************************ -->
+
+    <script type="module" src="src/app.js"></script>
+  </body>
 </html>
