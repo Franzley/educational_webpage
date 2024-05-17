@@ -2,39 +2,37 @@
 /************ Layout **************/
 /**********************************/
 
-/* ↓↓ Constrain entire webpage within a horizontally centered container with defined width ↓↓ */ 
-.container{
-    width: var(--container-width-1g);
-    margin: 0 auto;
+/* ↓↓ Constrain entire webpage within a horizontally centered container with defined width ↓↓ */
+.container {
+  width: var(--container-width-1g);
+  margin: 0 auto;
 }
 
-section{
-    padding: 6rem 0;
+section {
+  padding: 6rem 0;
 }
-
-
 
 /**********************************/
 /************ Button **************/
 /**********************************/
-.btn{
-    /* ↓↓ Set a width and height on the element and the top and bottom margins/paddings are respected ↓↓ */ 
-     display: inline-block;
-     background: var(--clr-white);
-     color: var(--clr-black);
-     padding: 1rem 2rem;
-     border: 1px solid transparent;
-     font-weight: 500;
-     transition: var(--transition);
+.btn {
+  /* ↓↓ Set a width and height on the element and the top and bottom margins/paddings are respected ↓↓ */
+  display: inline-block;
+  background: var(--clr-white);
+  color: var(--clr-black);
+  padding: 1rem 2rem;
+  border: 1px solid transparent;
+  font-weight: 500;
+  transition: var(--transition);
 }
 
-.btn:hover{
-    background: transparent;
-    color: var(--clr-white);
-    border-color: var(--clr-white);
+.btn:hover {
+  background: transparent;
+  color: var(--clr-white);
+  border-color: var(--clr-white);
 }
 
-.btn-primary{
-    background: var(--clr-danger);
-    color: var(--clr-white);
+.btn-primary {
+  background: var(--clr-danger);
+  color: var(--clr-white);
 }

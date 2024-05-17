@@ -41,6 +41,6 @@ nav button {
 
 /* Change navbar on scroll */
 .window-scroll {
-    background: var(--clr-primary);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background: var(--clr-primary);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }

@@ -10,22 +10,22 @@
   gap: 2rem;
 }
 
-.course{
-    background: var(--clr-bg1);
-    text-align: center;
-    border: 1px solid transparent;
-    transition: var(--transition);
+.course {
+  background: var(--clr-bg1);
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
 
-.course:hover{
-    background: transparent;
-    border-color: var(--clr-primary);
+.course:hover {
+  background: transparent;
+  border-color: var(--clr-primary);
 }
 
-.course-info{
-    padding: 2rem;
+.course-info {
+  padding: 2rem;
 }
-.course-info p{
-    margin: 1.2rem 0 2rem;
-    font-size: 0.9rem;
+.course-info p {
+  margin: 1.2rem 0 2rem;
+  font-size: 0.9rem;
 }
