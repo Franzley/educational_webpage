@@ -17,13 +17,12 @@
   padding: 2rem;
   display: flex;
   background: var(--clr-primary);
-  cursor: pointer;
   gap: 1.4rem;
   align-items: center;
   height: fit-content;
 }
 
-.faq h5 {
+.faq-question {
   font-size: 1rem;
   line-height: 2.2;
 }
@@ -33,9 +32,4 @@
   /* ↓↓ Apply transform pivoting off top ↓↓ */
   transform-origin: top;
   transform: translateY(13%) scale(1.2);
-}
-
-.faq p {
-  margin-top: 0.8rem;
-  display: none;
 }

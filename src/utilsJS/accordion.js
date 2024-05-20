@@ -1,32 +1,35 @@
 ////////////////////////////////////////
 //                                    //
-//              Show/Hide             //
+//              Accordion             //
 //                                    //
 ////////////////////////////////////////
-const showHide = () => {
-  const faqs = document.querySelectorAll(".faq");
+const accordion = () => {
+  const accordions = document.querySelectorAll(".accordion");
 
-  faqs.forEach((faq) => {
-    // Select the answers for corresponding faq
-    const answer = faq.querySelector(".faq-answer");
+  accordions.forEach((accordion) => {
+    // Select the answers for corresponding accordion
+    const panel = accordion.querySelector(".accordion-panel");
+    const trigger = accordion.querySelector(".accordion-trigger");
     // Select path tag of the svg
-    const icon = faq.querySelector(".faq-icon svg").querySelector("path");
+    const icon = accordion
+      .querySelector(".accordion-icon svg")
+      .querySelector("path");
 
     // State
     var isCollapsed = false;
-    faq.addEventListener("click", () => {
+    trigger.addEventListener("click", () => {
       // Toggle
       isCollapsed = !isCollapsed;
       if (isCollapsed) {
         // Display answer
-        answer.style.display = "block";
+        panel.style.height = `${panel.scrollHeight}px`;
         // Change svg to minus sign
         icon.setAttribute("d", "M6 12L18 12");
         icon.setAttribute("stroke", "currentColor");
         icon.setAttribute("stroke-width", "2");
       } else {
         // Hide answer
-        answer.style.display = "none";
+        panel.style.height = "0";
         // Change svg to plus
         icon.setAttribute(
           "d",
@@ -39,4 +42,4 @@ const showHide = () => {
   });
 };
 
-export default showHide;
+export default accordion;

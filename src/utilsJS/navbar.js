@@ -8,9 +8,7 @@ const navbar = () => {
   // If the page is refreshed and the window is scrolled down
   window.addEventListener("load", () => {
     if (window.scrollY > 0) {
-      document.querySelector("nav").classList.add("window-scroll");
-    } else {
-      document.querySelector("nav").classList.remove("window-scroll");
+      document.querySelector("nav").classList.toggle("window-scroll");
     }
   });
   // Change navbar on scroll

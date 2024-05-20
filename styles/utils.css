@@ -36,3 +36,12 @@ section {
   background: var(--clr-danger);
   color: var(--clr-white);
 }
+
+.accordion-trigger {
+  cursor: pointer;
+}
+.accordion-panel {
+  overflow: hidden;
+  height: 0;
+  transition: height 0.2s ease-out;
+}

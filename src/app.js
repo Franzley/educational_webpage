@@ -1,5 +1,5 @@
 import navbar from "./utilsJS/navbar.js";
-import showHide from "./utilsJS/showHide.js";
+import accordion from "./utilsJS/accordion.js";
 
 navbar();
-showHide();
+accordion();
