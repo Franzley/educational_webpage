@@ -10,6 +10,7 @@
 
 .testimonial {
   padding-top: 2rem;
+  user-select: none;
 }
 
 .avatar {

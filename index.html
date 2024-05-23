@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Multipage Education Website</title>
-    <script
-      src="https://kit.fontawesome.com/63c4091414.js"
-      crossorigin="anonymous"
-    ></script>
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- SWIPER JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- STYLESHEETS -->
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/components/navbar.css" />
     <link rel="stylesheet" href="./styles/components/hero.css" />
@@ -21,6 +24,7 @@
     <link rel="stylesheet" href="./styles/components/courses.css" />
     <link rel="stylesheet" href="./styles/components/faqs.css" />
     <link rel="stylesheet" href="./styles/components/testimonials.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
     <link rel="stylesheet" href="./styles/utils.css" />
   </head>
 
@@ -31,7 +35,7 @@
     <nav class="scroll-transition">
       <div class="container nav-container">
         <a href="index.html">
-          <h5>Courses EDU</h5>
+          <h5>EduSite</h5>
         </a>
         <ul class="nav-menu">
           <li><a href="#">About</a></li>
@@ -468,11 +472,11 @@
     <!--               Testimonials Start                 -->
     <!-- ************************************************ -->
 
-    <section class="container testimonials-container">
+    <section class="container testimonials-container mySwiper">
       <h3>Students' Testimonials</h3>
-      <div>
+      <div class="swiper-wrapper">
         <!-- Testimonial 1 -->
-        <article class="testimonial">
+        <article class="testimonial swiper-slide">
           <article>
             <div class="avatar">
               <img src="./images/avatar1.jpg" alt="" srcset="" />
@@ -490,7 +494,7 @@
           </article>
         </article>
         <!-- Testimonial 2 -->
-        <article class="testimonial">
+        <article class="testimonial swiper-slide">
           <article>
             <div class="avatar">
               <img src="./images/avatar2.jpg" alt="" srcset="" />
@@ -508,7 +512,7 @@
           </article>
         </article>
         <!-- Testimonial 3 -->
-        <article class="testimonial">
+        <article class="testimonial swiper-slide">
           <article>
             <div class="avatar">
               <img src="./images/avatar3.jpg" alt="" srcset="" />
@@ -526,7 +530,7 @@
           </article>
         </article>
         <!-- Testimonial 4 -->
-        <article class="testimonial">
+        <article class="testimonial swiper-slide">
           <article>
             <div class="avatar">
               <img src="./images/avatar4.jpg" alt="" srcset="" />
@@ -544,7 +548,7 @@
           </article>
         </article>
         <!-- Testimonial 5 -->
-        <article class="testimonial">
+        <article class="testimonial swiper-slide">
           <article>
             <div class="avatar">
               <img src="./images/avatar5.jpg" alt="" srcset="" />
@@ -562,12 +566,80 @@
           </article>
         </article>
       </div>
+      <div class="swiper-pagination"></div>
     </section>
 
     <!-- ************************************************ -->
     <!--               Testimonials End                   -->
     <!-- ************************************************ -->
 
+    <!-- ************************************************ -->
+    <!--                 Footer Start                     -->
+    <!-- ************************************************ -->
+
+    <footer>
+      <div class="container footer-container">
+        <!-- Footer Section 1 -->
+        <div class="footer-description">
+          <a href="index.html" class="footer-logo"><h5>EduSite</h5></a>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis,
+            possimus.
+          </p>
+        </div>
+        <!-- Footer Section 2 -->
+        <div class="footer-permalinks">
+          <h5>Permalinks</h5>
+          <ul class="permalinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Footer Section 3 -->
+        <div class="footer-terms_privacy">
+          <h5>Policies</h5>
+          <ul class="policies">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+        <!-- Footer Section 4 -->
+        <div class="footer-contact">
+          <h5>Contact Us</h5>
+          <div>
+            <p>+1 000 000 0000</p>
+            <p>admin@edusite.edu</p>
+          </div>
+
+          <ul class="footer-socials">
+            <li>
+              <a href="#"><i>FB</i></a>
+            </li>
+            <li>
+              <a href="#"><i>IG</i></a>
+            </li>
+            <li>
+              <a href="#"><i>X</i></a>
+            </li>
+            <li>
+              <a href="#"><i>LN</i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <small>Copyright &copy; Franzley</small>
+      </div class="footer-copyright">
+    </footer>
+
+    <!-- ************************************************ -->
+    <!--                  Footer End                      -->
+    <!-- ************************************************ -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="src/app.js"></script>
   </body>
 </html>
