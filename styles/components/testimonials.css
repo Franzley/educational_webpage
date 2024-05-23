@@ -50,3 +50,10 @@
   top: -1.5rem;
   transform: translateX(-50%) rotate(45deg);
 }
+
+
+@media (max-width: 600px) {
+  .testimonial-body {
+    padding: 1.2rem;
+  }
+}

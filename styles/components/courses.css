@@ -29,3 +29,19 @@
   margin: 1.2rem 0 2rem;
   font-size: 0.9rem;
 }
+
+@media (max-width: 1024px) {
+  .courses {
+    margin-top: 0;
+  }
+  .courses-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .courses-container {
+    grid-template-columns: 1fr;
+  }
+}

@@ -3,9 +3,26 @@
 /**********************************/
 
 /* ↓↓ Constrain entire webpage within a horizontally centered container with defined width ↓↓ */
+/* DESKTOP */
 .container {
-  width: var(--container-width-1g);
+  width: var(--container-width-lg);
   margin: 0 auto;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+/* TABLETS */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
 }
 
 section {

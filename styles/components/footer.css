@@ -43,3 +43,23 @@ footer ul li a:hover {
   padding: 1.2rem 0;
   border-top: 1px solid var(--clr-bg2);
 }
+
+@media (max-width: 1024px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+  .footer-description p {
+    margin: 1rem auto;
+  }
+  .footer-socials {
+    justify-content: center;
+  }
+}

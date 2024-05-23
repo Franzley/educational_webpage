@@ -59,3 +59,15 @@
   top: 50%;
   transform: translateY(-50%) rotate(90deg);
 }
+
+@media (max-width: 1024px) {
+  .faqs-container {
+    flex-direction: column;
+  }
+  .faq {
+    padding: 1.5rem;
+  }
+  .faq-question {
+    margin: auto;
+  }
+}
